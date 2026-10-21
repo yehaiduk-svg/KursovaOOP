@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Складський облік",
+    "slug": "warehouse-course",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "ua.course.warehouse",
+      "adaptiveIcon": {
+        "backgroundColor": "#176b50"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-sharing",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
